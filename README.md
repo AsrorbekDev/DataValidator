@@ -8,9 +8,10 @@ You can install the DataValidation library using Composer:
 
 ```bash
 composer require yourvendor/datavalidation
+```
+#Usage
 
-Usage
-EmailValidator
+###EmailValidator
 The EmailValidator class can be used to validate email addresses:
 
 ```bash
@@ -24,8 +25,8 @@ if ($validator->validate('example@example.com')) {
 } else {
     echo 'Invalid email address';
 }
-
-PhoneValidator
+```
+###PhoneValidator
 The PhoneValidator class can be used to validate phone numbers:
 
 ```bash
