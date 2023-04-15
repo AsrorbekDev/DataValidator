@@ -14,7 +14,7 @@ composer require yourvendor/datavalidation
 ### EmailValidator
 The EmailValidator class can be used to validate email addresses:
 
-```bash
+```php
 
 use DataValidation\EmailValidator;
 
@@ -29,7 +29,7 @@ if ($validator->validate('example@example.com')) {
 ### PhoneValidator
 The PhoneValidator class can be used to validate phone numbers:
 
-```bash
+```php
 use DataValidation\PhoneValidator;
 
 $validator = new PhoneValidator();
