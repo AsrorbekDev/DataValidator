@@ -44,6 +44,3 @@ if ($validator->validate('+1 (123) 456-7890', 'us')) {
 ## License
 DataValidation is open-source software licensed under the MIT license.
 
-
-Note that the code blocks are fenced with triple backticks (\`\`\`). This tells Markdown to format the enclosed text as code.
-
