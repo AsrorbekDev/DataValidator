@@ -14,6 +14,7 @@ EmailValidator
 The EmailValidator class can be used to validate email addresses:
 
 ```bash
+
 use DataValidation\EmailValidator;
 
 $validator = new EmailValidator();
@@ -27,6 +28,7 @@ if ($validator->validate('example@example.com')) {
 PhoneValidator
 The PhoneValidator class can be used to validate phone numbers:
 
+```bash
 use DataValidation\PhoneValidator;
 
 $validator = new PhoneValidator();
