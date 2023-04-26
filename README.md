@@ -7,7 +7,7 @@ DataValidation is a PHP library that provides simple and easy-to-use classes for
 You can install the DataValidation library using Composer:
 
 ```bash
-composer require yourvendor/datavalidation
+composer require asrorbek/data-validator
 ```
 # Usage
 
